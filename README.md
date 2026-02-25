@@ -1,36 +1,87 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🍽️ Buscador de Receitas
 
-## Getting Started
+Projeto de busca de receitas utilizando API externa.  
+O usuário pode pesquisar receitas por ingrediente e visualizar detalhes como ingredientes, instruções e vídeo.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Tecnologias utilizadas
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Next.js
+- TypeScript
+- React
+- CSS
+- API REST
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ⚙️ Funcionalidades
 
-## Learn More
+- Busca de receitas por ingrediente
+- Consumo de API
+- Listagem dinâmica de receitas
+- Visualização de detalhes
+- Lista de ingredientes
+- Instruções de preparo
+- Vídeo da receita
+- Scroll automático
+- Renderização dinâmica
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🧠 Aprendizados
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Consumo de API com fetch
+- Manipulação de estado
+- Tipagem com TypeScript
+- Organização de componentes
+- Renderização dinâmica
+- Estruturação de dados
+- Manipulação de arrays
+- Separação de responsabilidades
+- Integração com API externa
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📦 Estrutura
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+components/
+Cards.tsx
+SearchAPI.tsx
+
+types/
+mealType.ts
+
+app/
+page.tsx
+
+---
+
+## ▶️ Como rodar o projeto
+
+1. Instale as dependências: npm install
+2. Execute o projeto: npm run dev
+3. Acesse: http://localhost:3000
+
+---
+
+## 🌐 API utilizada
+
+TheMealDB
+
+https://www.themealdb.com/
+
+---
+
+## 👨‍💻 Autor
+
+Felipe de Lima Passarelli  
+Desenvolvedor Front-End focado em evolução contínua e boas práticas.
+
+GitHub: https://github.com/Felipe-de-Lima-Passarelli
+
+---
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT.
