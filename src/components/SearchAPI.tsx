@@ -25,7 +25,7 @@ const SearchAPI = () => {
   }
 
   return (
-    <main className="bg-white w-[50%] mx-auto py-[2%] my-[2%]">
+    <main className="bg-white w-[50%] mx-auto py-[2%] my-[2%] flex-1">
       <h1 className="text-[#313131] text-4xl font-black text-center">
         Buscador de Receitas
       </h1>

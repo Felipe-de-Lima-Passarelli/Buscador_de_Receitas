@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <div className="w-full min-w-250">
+    <div className="flex flex-col min-w-250 min-h-screen">
       <SearchAPI />
       <Footer />
     </div>
